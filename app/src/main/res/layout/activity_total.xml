@@ -3,7 +3,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/img_18"
     android:padding="16dp">
+
+
+    <TextView
+        android:id="@+id/totalbebidas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¡ESTE ES SU TOTAL DE REFRESCOS SELECCIONADOS!"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
 
     <TextView
         android:id="@+id/selected_drinks_label"
@@ -22,22 +34,6 @@
         android:layout_marginBottom="16dp"/>
 
     <TextView
-        android:id="@+id/selected_pizzas_label"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Pizzas Seleccionadas:"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        android:layout_marginBottom="8dp"/>
-
-    <TextView
-        android:id="@+id/selected_pizzas_textview"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="16sp"
-        android:layout_marginBottom="16dp"/>
-
-    <TextView
         android:id="@+id/total_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -46,6 +42,8 @@
         android:textStyle="bold"
         android:layout_marginBottom="8dp"/>
 
+
+
     <TextView
         android:id="@+id/total_textview"
         android:layout_width="match_parent"
@@ -53,4 +51,21 @@
         android:textSize="20sp"
         android:textStyle="bold"/>
 
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿Desea usted volver al menu?"
+        android:layout_marginTop="16dp"/>
+
+
+    <TextView
+        android:id="@+id/COMPRA"
+        android:layout_width="253dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="8dp"
+        android:text="GRACIAS POR SU COMPRA :)"
+        android:textSize="18sp"
+        android:textStyle="bold" />
 </LinearLayout>

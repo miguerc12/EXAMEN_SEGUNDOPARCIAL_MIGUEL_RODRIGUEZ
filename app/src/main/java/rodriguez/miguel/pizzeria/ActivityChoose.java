@@ -24,7 +24,7 @@ public class ActivityChoose extends AppCompatActivity {
         pizzaButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Abrir la actividad del menú de pizzas//
+
                 Intent intent = new Intent(ActivityChoose.this, PizzaMenuActivity.class);
                 startActivity(intent);
             }
@@ -33,7 +33,7 @@ public class ActivityChoose extends AppCompatActivity {
         drinkButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Abrir la actividad del menú de refrescos//
+
                 Intent intent = new Intent(ActivityChoose.this, DrinkMenuActivity.class);
                 startActivity(intent);
             }

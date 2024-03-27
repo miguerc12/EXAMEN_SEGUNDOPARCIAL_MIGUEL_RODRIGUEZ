@@ -37,7 +37,7 @@ import java.util.List;
                 @Override
                 public void onClick(View v) {
                     total += 40;
-                    selectedDrinks.add("Refresco 1 ($40)");
+                    selectedDrinks.add("Refresco Sabor ($40)");
                     updateTotalPrice();
                 }
             });
@@ -46,7 +46,7 @@ import java.util.List;
                 @Override
                 public void onClick(View v) {
                     total += 60;
-                    selectedDrinks.add("Refresco 2 ($60)");
+                    selectedDrinks.add("Refresco pepsi ($60)");
                     updateTotalPrice();
                 }
             });
@@ -55,7 +55,7 @@ import java.util.List;
                 @Override
                 public void onClick(View v) {
                     total += 80;
-                    selectedDrinks.add("Refresco 3 ($80)");
+                    selectedDrinks.add("Refresco coca cola ($80)");
                     updateTotalPrice();
                 }
             });
@@ -72,7 +72,7 @@ import java.util.List;
             payButton.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    // Al apretar  el botón "Pagar", inicia la actividad TotalActivity//
+
                     Intent intent = new Intent(DrinkMenuActivity.this, TotalActivity.class);
                     intent.putStringArrayListExtra("selectedDrinks", (ArrayList<String>) selectedDrinks);
                     intent.putExtra("totalDrinks", total);

@@ -7,7 +7,7 @@
     android:background="@drawable/img_4"
     tools:context=".MainActivity">
 
-    <!-- TextView de bienvenida -->
+
     <TextView
         android:id="@+id/textWelcome"
         android:layout_width="wrap_content"
@@ -20,7 +20,7 @@
         android:textSize="20sp"
         android:layout_marginTop="16dp"/>
 
-    <!-- Imagen de pizza -->
+
     <ImageView
         android:id="@+id/imagePizza"
         android:layout_width="200dp"
@@ -30,7 +30,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp"/>
 
-    <!-- Botón para elegir pizzas -->
+
     <Button
         android:id="@+id/btnChoosePizza"
         android:layout_width="wrap_content"
@@ -40,7 +40,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp"/>
 
-    <!-- Imagen de refrescos -->
+
     <ImageView
         android:id="@+id/imageSoda"
         android:layout_width="200dp"
@@ -50,7 +50,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="32dp"/>
 
-    <!-- Botón para elegir refrescos -->
+
     <Button
         android:id="@+id/btnChooseSoda"
         android:layout_width="wrap_content"
