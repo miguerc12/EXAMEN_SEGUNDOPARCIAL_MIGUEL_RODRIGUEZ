@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_19"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewTotalPizzas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total de Pizzas:"
+        android:textColor="#0000FF"
+        android:textSize="20sp"
+        android:padding="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewTotalRefrescos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total de Refrescos:"
+        android:textColor="#0000FF"
+        android:textSize="20sp"
+        android:padding="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewTotalCompra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Esta es su compra total:"
+        android:textColor="#FF0000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/gracias"
+        android:layout_width="match_parent"
+        android:layout_height="142dp"
+        android:padding="16dp"
+        android:text="¡MUCHAS GRACIAS POR SU COMPRA VUELVA PRONTO!"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editTextComentario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="INSERTE SU NUMERO DE TARJETA"
+        android:padding="16dp"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"/>
+
+
+    <EditText
+        android:id="@+id/contraseña"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextUsername"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="16dp"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF" />
+
+    <Button
+        android:id="@+id/botonPagoExitoso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PAGAR" />
+
+    <TextView
+        android:id="@+id/mensajePagoExitoso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp"
+        android:padding="16dp"/>
+
+
+
+    <Button
+        android:id="@+id/botonNuevoPedido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Volver a un nuevo pedido" />
+
+
+
+</LinearLayout>

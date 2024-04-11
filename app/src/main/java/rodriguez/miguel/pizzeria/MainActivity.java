@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
     private int loginAttempts = 0;
     private static final int MAX_LOGIN_ATTEMPTS = 3;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -37,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
 
                 if (username.equals(VALID_USERNAME) && password.equals(VALID_PASSWORD)) {
                     Intent intent = new Intent(MainActivity.this, ActivityChoose.class);
+                    intent.putExtra("USERNAME", username);
                     startActivity(intent);
                     finish();
                 } else {
@@ -47,7 +49,6 @@ public class MainActivity extends AppCompatActivity {
                     } else {
                         Toast.makeText(MainActivity.this, "Credenciales inválidas", Toast.LENGTH_SHORT).show();
                     }
-
                 }
             }
         });

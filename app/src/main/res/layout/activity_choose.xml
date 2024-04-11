@@ -7,19 +7,27 @@
     android:background="@drawable/img_4"
     tools:context=".MainActivity">
 
+    <TextView
+        android:id="@+id/textViewWelcomeMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
+
 
     <TextView
         android:id="@+id/textWelcome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="53dp"
         android:text="¡BIENVENIDO!,¿QUE DESEA USTED ELEGIR?"
         android:textColor="@color/black"
-        android:textStyle="bold"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
         android:textSize="20sp"
-        android:layout_marginTop="16dp"/>
-
+        android:textStyle="bold" />
 
     <ImageView
         android:id="@+id/imagePizza"
@@ -59,6 +67,17 @@
         android:layout_below="@id/imageSoda"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btnShowCombinedTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_above="@+id/btnChoosePizza"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="620dp"
+        android:layout_marginBottom="-344dp"
+        android:text="TOTAL" />
+
 
 </RelativeLayout>
 

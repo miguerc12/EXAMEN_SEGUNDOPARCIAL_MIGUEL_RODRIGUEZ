@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Pizzeria"
         tools:targetApi="31">
         <activity
+            android:name=".TOTAL_TODO2"
+            android:exported="false" />
+        <activity
             android:name=".totalfinal"
             android:exported="false" />
         <activity

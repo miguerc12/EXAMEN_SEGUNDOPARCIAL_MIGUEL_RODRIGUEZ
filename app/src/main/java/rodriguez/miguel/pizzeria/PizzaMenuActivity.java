@@ -30,7 +30,7 @@ public class PizzaMenuActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 total += 300;
-                updateOrderSummary("Pizza Peperoni", 300);
+                updateOrderSummary("Pizza HAWAIANA", 300);
                 updateTotal();
             }
         });
@@ -39,7 +39,7 @@ public class PizzaMenuActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 total += 400;
-                updateOrderSummary("Pizza Hawaiana", 400);
+                updateOrderSummary("Pizza PEPERONI", 400);
                 updateTotal();
             }
         });

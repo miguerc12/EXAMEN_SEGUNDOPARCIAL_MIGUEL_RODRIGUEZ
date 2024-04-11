@@ -68,4 +68,12 @@
         android:text="GRACIAS POR SU COMPRA :)"
         android:textSize="18sp"
         android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnIrOtraActividad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ir al total"
+        android:layout_marginTop="16dp"/>
+
 </LinearLayout>
