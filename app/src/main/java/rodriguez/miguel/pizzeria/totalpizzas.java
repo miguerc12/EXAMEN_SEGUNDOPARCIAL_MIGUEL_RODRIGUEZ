@@ -18,6 +18,8 @@ public class totalpizzas extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_totalpizzas);
 
+        
+
 
         String orderSummary = getIntent().getStringExtra("order_summary");
         int total = getIntent().getIntExtra("total", 0);
